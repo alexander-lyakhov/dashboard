@@ -1,0 +1,15 @@
+﻿$text-50:  #ECEFF1;
+$text-100: #CFD8DC;
+
+$bg-body: #263238;
+$bg-card: #37474F;
+$bg-card-item: #455A64;
+
+html {
+  font: 16px verdana;
+}
+
+html, body {
+  background: $bg-body;
+  min-height: 100vh;
+}
