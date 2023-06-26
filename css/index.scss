@@ -40,6 +40,10 @@ html, body {
   min-height: 100vh;
 }
 
+body {
+  padding: 2rem;
+}
+
 .boards {
   display: flex;
   gap: .5rem;
@@ -49,17 +53,19 @@ html, body {
 
 .board {
   background: $bg-card;
-  // border: 1px solid #c93;
   border-radius: 6px;
   flex: 0 1 320px;
-  margin-top: 2rem;
   padding: .5rem;
   cursor: pointer;
+
+  &.outlined {
+    outline: 2px solid transparent;
+  }
   
   &-title {
     @extend .hv-center;
     font-weight: normal;
-    border-bottom: 2px solid #c90;
+    border-bottom: 2px solid #808080;
     font-size: 1.25rem;
     height: 3rem;
   }
@@ -72,7 +78,7 @@ html, body {
     li {
       @extend .hv-center;
       background: $bg-card-item;
-      border-radius: 6px;
+      // border-radius: 6px;
       box-shadow: 0 2px 2px #00000040;
       display: grid;
       height: 4.5rem;
@@ -91,11 +97,12 @@ html, body {
       
       .link {
         font-size: .875rem;
-        color: #90A4AE;
+        color: #78909C;
       }
       &:hover {
         color: #ECEFF1;
         background: lighten($bg-card-item, 5%);
+        outline: 1px solid #a0a0a0;
         .link {
           color: #4FC3F7;
         }

@@ -1,5 +1,4 @@
 ﻿const { createApp } = Vue;
-console.log(boards, createApp)
 
 const app = createApp({
   el: '#app',
@@ -27,8 +26,16 @@ app.component('boards', {
 
 app.component('board', {
   template: `
-    <div class="board">
-      <h1 class="board-title">{{ boardData.title }}</h1>
+    <div class="board"
+      :style="boardStyles"
+      :class="{outlined: boardData.outlineColor}"
+    >
+      <h1
+        class="board-title"
+        :style="titleStyles"
+      >
+        {{ boardData.title }}
+      </h1>
       <ul>
         <li v-for="item in boardData.items" @click="open(item.link)">
           <div class="title">{{ item.title }}</div>
@@ -41,6 +48,18 @@ app.component('board', {
     boardData: {
       type: Object,
       default: () => ({})
+    }
+  },
+  computed: {
+    boardStyles() {
+      return {
+        'outline-color': this.boardData.outlineColor
+      }
+    },
+    titleStyles() {
+      return {
+        'border-color': this.boardData.accentColor || '#808080'
+      }
     }
   },
   methods: {

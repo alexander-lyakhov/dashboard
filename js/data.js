@@ -1,7 +1,7 @@
 ﻿const boards = [
   {
     "title": "General",
-    "accentColor": "#c09030",
+    "accentColor": "#00c0c0",
     "items": [
       {
         "title": "Project Environments - E-commerce - Confluence",
@@ -20,11 +20,11 @@
         "link": "https://yellowmedia-vjet.hurma.work/"
       },
       {
-        "title": "Installation - Tailwind CSS",
-        "link": "https://tailwindcss.com/docs/installation"
+        "title": "Tailwind CSS",
+        "link": "https://tailwindcss.com/docs"
       },
       {
-        "title": "Team Reports - Worklog author - Jira",
+        "title": "Team Reports - Jira",
         "link": "https://gosyqor.atlassian.net/plugins/servlet/ac/com.gebsun.plugins.jira.startwork/worklog-user-worklogs-report-page#!/?datem=useFromTo&from=2023-06-01&groupBy=com.gebsun.fields.worklogAuthor&jusers=712020%3A6328bb7c-b2e3-442a-9d33-40b4c08511e2&period=days&timeZone=user&to=2023-06-30&wlFormat=hours"
       },
       {
@@ -46,11 +46,11 @@
         "link": "https://gosyqor.atlassian.net/jira/software/projects/DC/boards/44"
       },
       {
-        "title": "vjet_developers / diamondclub_front_store — Bitbucket",
+        "title": "Bitbucket",
         "link": "https://bitbucket.org/vjet_developers/diamondclub_front_store/src/master/"
       },
       {
-        "title": "Diamond Club Playground – Figma",
+        "title": "Figma",
         "link": "https://www.figma.com/file/1RtpAoamGI9TFgtrpdd1mK/Diamond-Club-Playground?type=design&node-id=4109-110050&t=StXtQNCjmFrwb9ic-0"
       },
       {
@@ -84,11 +84,11 @@
         "link": "https://gosyqor.atlassian.net/jira/software/c/projects/AL/boards/46?assignee=712020%3A6328bb7c-b2e3-442a-9d33-40b4c08511e2"
       },
       {
-        "title": "vjet_developers / alink_vue_fe — Bitbucket",
+        "title": "Bitbucket",
         "link": "https://bitbucket.org/vjet_developers/alink_vue_fe/src/master/"
       },
       {
-        "title": "ALINK Tradeshows + Website 2023 – Figma",
+        "title": "Figma",
         "link": "https://www.figma.com/file/jpgul0dmaBZcGM5laIJlgR/ALINK-Tradeshows-%2B-Website-2023?type=design&node-id=970-806&t=sc827Jx8BuZOimiZ-0"
       },
       {
@@ -106,7 +106,7 @@
     "accentColor": "#c09030",
     "items": [
       {
-        "title": "vjet_developers / e-comm-adminfe — Bitbucket",
+        "title": "Bitbucket",
         "link": "https://bitbucket.org/vjet_developers/e-comm-adminfe/src/master/"
       },
       {
@@ -120,11 +120,11 @@
     "accentColor": "#c09030",
     "items": [
       {
-        "title": "Penny Preville Kanban - Agile Board - Jira",
+        "title": "PP board - Agile Board - Jira",
         "link": "https://gosyqor.atlassian.net/jira/software/c/projects/PPV/boards/36?quickFilter=64&assignee=712020%3A6328bb7c-b2e3-442a-9d33-40b4c08511e2"
       },
       {
-        "title": "vjet_developers / pennypervile_vue — Bitbucket",
+        "title": "Bitbucket",
         "link": "https://bitbucket.org/vjet_developers/pennypervile_vue/commits/"
       },
       {
@@ -132,15 +132,15 @@
         "link": "https://www.figma.com/file/e3ErcAZkq4Q8doEUuAoNCo/PP-Website---Handoff-2023?type=design&node-id=117-544&t=i6rfcgizwA9idSi7-0"
       },
       {
-        "title": "DEV - pennypreville.devsyqor.com",
+        "title": "DEV - PP",
         "link": "https://pennypreville.devsyqor.com/"
       },
       {
-        "title": "Adminka - DEV",
+        "title": "Админка - DEV",
         "link": "https://pp-admin.devsyqor.com/products"
       },
       {
-        "title": "Adminka - STAGE",
+        "title": "Админка - STAGE",
         "link": "https://pp-admin-stage.devsyqor.com/products"
       },
     ]
