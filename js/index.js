@@ -2,15 +2,10 @@
 
 const app = createApp({
   el: '#app',
-  template: `
-    <boards :items="boards" />
-  `,
-  data: () => ({
-    boards: boards
-  })
+  data: () => ({ boards })
 });
 
-app.component('boards', {
+app.component('dashboard', {
   template: `
     <div class="boards">
       <board v-for="board in items" :boardData="board" />
@@ -30,10 +25,7 @@ app.component('board', {
       :style="boardStyles"
       :class="{outlined: boardData.outlineColor}"
     >
-      <h1
-        class="board-title"
-        :style="titleStyles"
-      >
+      <h1 class="board-title" :style="titleStyles">
         {{ boardData.title }}
       </h1>
       <ul>

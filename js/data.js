@@ -77,7 +77,7 @@
   },
   {
     "title": "A-Link",
-    "accentColor": "#c09030",
+    "accentColor": "#B39DDB",
     "items": [
       {
         "title": "AL board - Agile Board - Jira",
@@ -103,7 +103,7 @@
   },
   {
     "title": "AdminFE",
-    "accentColor": "#c09030",
+    "accentColor": "#64B5F6",
     "items": [
       {
         "title": "Bitbucket",
@@ -117,7 +117,7 @@
   },
   {
     "title": "Penny Preville",
-    "accentColor": "#c09030",
+    "accentColor": "#81C784",
     "items": [
       {
         "title": "PP board - Agile Board - Jira",
