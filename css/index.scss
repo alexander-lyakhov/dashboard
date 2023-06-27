@@ -83,6 +83,18 @@ body {
       display: grid;
       height: 4.5rem;
       padding: .75rem;
+      position: relative;
+
+      &:after {
+        content: '';
+        background: transparent;
+        display: block;
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
           
       & > div {
         text-overflow: ellipsis;
@@ -102,9 +114,13 @@ body {
       &:hover {
         color: #ECEFF1;
         background: lighten($bg-card-item, 5%);
-        outline: 1px solid #a0a0a0;
+        // outline: 1px solid #a0a0a0;
         .link {
           color: #4FC3F7;
+        }
+
+        &:after {
+          background: #c0c0c0;
         }
       }
       
