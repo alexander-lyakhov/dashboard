@@ -1,0 +1,1 @@
+start sass -w --no-source-map --style=compressed ..
